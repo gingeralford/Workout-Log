@@ -17,7 +17,7 @@ app.use('/user', user);
 
 // app.use(require('./middleware/validateSession'));
 // unneeded here because each route in the logController is validated
-
+  
 app.use('/log', log);
 
 app.listen(3000, function() {
